@@ -1,0 +1,26 @@
+# Ignore Python cache
+__pycache__/
+*.py[cod]
+
+# Ignore virtual environment
+venv/
+.env
+*.env
+#config.py
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore models and audio data
+models/vosk-model-*/
+*.zip
+*.wav
+
+# Ignore runtime and config files
+memory.json
+
